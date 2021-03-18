@@ -1,0 +1,69 @@
+body {
+    background-image: url("./download.jfif");
+    padding: 16px 36px;
+}
+.nav h1 {
+    display: inline-block;
+    width: 72px;
+    height:64px;
+    font-size: large;
+    color:white;
+    border:2px solid white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+}
+ul {
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+    float: right;
+    padding-top: 16px;
+}
+li a {
+    text-decoration: none;
+    padding-right: 64px;
+    color:#eee;
+    transition: .2s;
+    font-family: 'Raleway', sans-serif;
+}
+li a:hover {
+    color:#ccc;
+}
+.content h1 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    margin-top: 150px;
+    font-size: 48px;
+    width:800px;
+    color:#eee;
+    font-weight: 500;
+}
+span {
+    color:rgb(119, 9, 119);
+}
+button {
+    background: transparent;
+    outline: noen;
+    border: 2px solid #ddd;
+    border-radius: 16px;
+    padding:4px 16px 2px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn-1 {
+    color:rgb(119, 9, 119);
+    border-color: rgb(119, 9, 119);
+}
+.btn-2 {
+    color:#eee;
+}
+.btn-1:hover,.btn-2:hover {
+    background: rgb(119, 9, 119);
+    border-color: rgb(119, 9, 119);
+    color:white;
+}
